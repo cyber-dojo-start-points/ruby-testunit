@@ -1,5 +1,5 @@
 {
-  "image_name": "cyberdojofoundation/ruby_test_unit:5ffb2ce",
+  "image_name": "cyberdojofoundation/ruby_test_unit:93b3568",
   "display_name": "Ruby, Test::Unit",
   "visible_filenames": [
     "test_hiker.rb",

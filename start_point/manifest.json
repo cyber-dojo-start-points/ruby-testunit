@@ -1,5 +1,5 @@
 {
-  "image_name": "cyberdojofoundation/ruby_test_unit:1384d90",
+  "image_name": "ghcr.io/cyber-dojo-languages/ruby_test_unit:9c663eb",
   "display_name": "Ruby, Test::Unit",
   "visible_filenames": [
     "test_hiker.rb",

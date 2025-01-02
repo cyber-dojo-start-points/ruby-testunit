@@ -1,6 +1,6 @@
 {
-  "image_name": "ghcr.io/cyber-dojo-languages/ruby_test_unit:c246168",
-  "display_name": "Ruby 3.3.6, Test::Unit",
+  "image_name": "ghcr.io/cyber-dojo-languages/ruby_test_unit:c3a64a6",
+  "display_name": "Ruby 3.4.1, Test::Unit",
   "visible_filenames": [
     "test_hiker.rb",
     "hiker.rb",

@@ -1,12 +1,13 @@
 {
-  "image_name": "ghcr.io/cyber-dojo-languages/ruby_test_unit:7eddad5",
   "display_name": "Ruby 4.0.1, Test::Unit 3.7.5",
+  "image_name": "ghcr.io/cyber-dojo-languages/ruby_test_unit:f961a02",
   "visible_filenames": [
     "test_hiker.rb",
     "hiker.rb",
     "coverage.rb",
     "cyber-dojo.sh"
   ],
+  "rag_lambda": "red_amber_green.rb",
   "filename_extension": [
     ".rb"
   ],

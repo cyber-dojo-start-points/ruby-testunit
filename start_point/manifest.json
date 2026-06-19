@@ -1,5 +1,13 @@
 {
   "display_name": "Ruby 4.0.1, Test::Unit 3.7.5",
+  "language": [
+    "Ruby",
+    "4.0.1"
+  ],
+  "test_framework": [
+    "Test::Unit",
+    "3.7.5"
+  ],
   "image_name": "ghcr.io/cyber-dojo-languages/ruby_test_unit:f961a02",
   "visible_filenames": [
     "test_hiker.rb",

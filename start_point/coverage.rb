@@ -31,10 +31,18 @@ module SimpleCov
 end
 
 SimpleCov.command_name "Test::Unit"
+
+# Without this, any run that ends in a failing test carries a line saying
+# SimpleCov stopped because of an error that is nothing to do with SimpleCov.
+# That is every red run, and it says nothing about the test that failed.
+SimpleCov.print_error_status = false
+
 SimpleCov.at_exit do
-  # I'd like to only write the coverage report if the
-  # traffic-light is green but it seems there is no way.
-  if $!.is_a?(SystemExit) # !amber-traffic-light
+  # The report is written on green only. test-unit has called exit by the time
+  # this runs, so $! holds its SystemExit: successful when every test passed,
+  # unsuccessful when one failed. A file that would not even load leaves some
+  # other exception here instead, and no SystemExit at all.
+  if $!.is_a?(SystemExit) && $!.success?
     SimpleCov::Formatter::FileWriter.new.format(SimpleCov.result)
   end
 end

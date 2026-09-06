@@ -5,8 +5,8 @@
     "4.0.1"
   ],
   "test_framework": [
-    "Test::Unit, Mocha",
-    "3.7.5, 3.1.0"
+    "Test::Unit",
+    "3.7.5"
   ],
   "image_name": "ghcr.io/cyber-dojo-languages/ruby_test_unit:1699ae5",
   "visible_filenames": [

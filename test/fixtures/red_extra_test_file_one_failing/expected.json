@@ -1,0 +1,7 @@
+{
+  "match_counts": {
+    "^F$": 1,
+    "^Failure: test_the_answer_is_three_digits_long\\(TestAnswerSize\\)$": 1,
+    "^2 tests, 2 assertions, 1 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications$": 1
+  }
+}

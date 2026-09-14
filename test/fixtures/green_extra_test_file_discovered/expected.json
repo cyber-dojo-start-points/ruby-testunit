@@ -1,0 +1,6 @@
+{
+  "max_output_lines": 20,
+  "match_counts": {
+    "^2 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications$": 1
+  }
+}

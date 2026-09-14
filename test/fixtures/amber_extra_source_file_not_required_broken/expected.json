@@ -1,0 +1,7 @@
+{
+  "matches": [ "^checksum\\.rb:[0-9]+: syntax error, unexpected 'end' \\(SyntaxError\\)$" ],
+  "match_counts": {
+    "^-e:[0-9]+:in 'RubyVM::InstructionSequence\\.compile_file': --> checksum\\.rb$": 1,
+    " tests, [0-9]+ assertions, ": 0
+  }
+}

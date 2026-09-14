@@ -1,0 +1,9 @@
+{
+  "match_counts": {
+    "^F$": 1,
+    "^E$": 1,
+    "^Failure: test_life_the_universe_and_everything\\(TestHiker\\)$": 1,
+    "^Error: test_the_checksum_of_the_answer\\(TestHiker\\): ZeroDivisionError: divided by 0$": 1,
+    "^2 tests, 1 assertions, 1 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications$": 1
+  }
+}

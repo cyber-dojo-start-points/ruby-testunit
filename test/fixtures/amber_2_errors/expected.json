@@ -1,0 +1,7 @@
+{
+  "match_counts": {
+    "^E$": 2,
+    "^Error: test_.*\\(TestHiker\\): ZeroDivisionError: divided by 0$": 2,
+    "^2 tests, 0 assertions, 0 failures, 2 errors, 0 pendings, 0 omissions, 0 notifications$": 1
+  }
+}

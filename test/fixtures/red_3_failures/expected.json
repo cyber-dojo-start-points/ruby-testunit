@@ -1,0 +1,7 @@
+{
+  "match_counts": {
+    "^F$": 3,
+    "^Failure: test_.*\\(TestHiker\\)$": 3,
+    "^3 tests, 3 assertions, 3 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications$": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "matches": [ "^test_hiker\\.rb:[0-9]+: syntax error, unexpected 'end', expecting '\\)' \\(SyntaxError\\)$" ],
+  "match_counts": {
+    "^-e:[0-9]+:in 'RubyVM::InstructionSequence\\.compile_file': --> test_hiker\\.rb$": 1,
+    " tests, [0-9]+ assertions, ": 0
+  }
+}
